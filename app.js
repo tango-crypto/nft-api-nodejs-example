@@ -190,12 +190,20 @@ const salePhase = {
     "name": "Silver plan",
     "quantity": 1,
     "supply": 1,
-    "price": 15000000
-  }, {
+    "price": {
+      "ADA": {
+        "amount": 15000000
+       }
+     }
+   }, {
     "name": "Golden plan",
     "quantity": 2,
     "supply": 1,
-    "price": 20000000
+    "price": {
+      "ADA": {
+        "amount": 20000000
+       }
+     }
   }]
 };
 
